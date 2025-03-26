@@ -32,6 +32,7 @@ nav {
   gap: 30px;
   padding: 15px 0;
   border-radius: 0 0 20px 20px;
+  align-items: center;
 }
 
 nav a {
@@ -161,4 +162,54 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  header {
+      font-size: 1.5rem;
+      padding: 20px 10px;
+  }
+
+  header img {
+      width: 200px;
+      margin: auto; 
+  }
+
+  nav {
+      flex-direction: column; 
+      gap: 10px;
+      padding: 10px;
+  }
+
+  nav a {
+      font-size: 1rem;
+      padding: 10px 15px; 
+      width: 80%; 
+      margin: 0 auto;
+  }
+
+  main {
+      padding: 20px;
+      gap: 20px;
+  }
+
+  .section {
+      padding: 20px;
+      font-size: 0.9rem; 
+  }
+
+  .container {
+      flex-direction: column; 
+      gap: 20px;
+  }
+
+  .box {
+      min-width: auto; 
+      width: 100%; 
+  }
+
+  footer {
+      font-size: 0.9rem; 
+      padding: 15px;
+  }
 }

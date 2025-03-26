@@ -138,3 +138,103 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 480px) {
+  body {
+      font-size: 14px;
+  }
+
+  header {
+      font-size: 1.2rem; 
+      padding: 20px 10px;
+  }
+
+  header img {
+      width: 150px; 
+      margin: auto;
+  }
+
+  nav {
+      flex-direction: column; 
+      gap: 10px; 
+      padding: 10px;
+  }
+
+  nav a {
+      font-size: 1rem;
+      padding: 10px 15px; 
+      width: 90%; 
+      margin: 0 auto;
+  }
+
+  main {
+      padding: 20px; 
+  }
+
+  .section {
+      padding: 20px;
+      font-size: 0.9rem; 
+  }
+
+  .form-usuario,
+  .form-empresa {
+      width: 100%; 
+  }
+
+  .form-usuario input,
+  .form-empresa input,
+  .form-usuario select,
+  .form-empresa select,
+  .form-usuario button,
+  .form-empresa button {
+      width: 100%;
+  }
+
+  .form-usuario button,
+  .form-empresa button {
+      font-size: 1rem; 
+  }
+}
+
+@media (max-width: 768px) {
+  header img {
+      width: 200px; 
+  }
+
+  nav {
+      flex-direction: column; 
+      gap: 15px; 
+  }
+
+  nav a {
+      font-size: 1rem; 
+      width: 80%; 
+      margin: 0 auto;
+  }
+
+  .form-usuario,
+  .form-empresa {
+      width: 90%; 
+      margin: 0 auto;
+  }
+
+  .form-usuario button,
+  .form-empresa button {
+      font-size: 1.1rem; 
+  }
+}
+
+
+@media (max-width: 1024px) {
+  body {
+      font-size: 16px; 
+  }
+
+  header img {
+      width: 250px; 
+  }
+
+  nav {
+      gap: 20px; 
+  }
+}
